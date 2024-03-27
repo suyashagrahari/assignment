@@ -1,0 +1,90 @@
+<div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class={`carousel-item ${activeIndex === 0 ? "active" : ""}`}>
+                <div class="cards-wrapper">
+                  <div class="card">
+                    <Image src={Img} class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the cards content.
+                      </p>
+                      <a href="#" class="btn btn-primary">
+                        Go somewhere
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block">
+                    <Image src={Img} class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the cards content.
+                      </p>
+                      <a href="#" class="btn btn-primary">
+                        Go somewhere
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block">
+                    <Image src={Img} class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the cards content.
+                      </p>
+                      <a href="#" class="btn btn-primary">
+                        Go somewhere
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block">
+                    <Image src={Img} class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the cards content.
+                      </p>
+                      <a href="#" class="btn btn-primary">
+                        Go somewhere
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              className="carousel-control-prev"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="prev"
+              onClick={handlePrev}
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="sr-only">Previous</span>
+            </a>
+            <a
+              className="carousel-control-next"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="next"
+              onClick={handleNext}
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="sr-only">Next</span>
+            </a>
+          </div>
